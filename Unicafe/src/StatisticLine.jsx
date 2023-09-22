@@ -1,10 +1,10 @@
 const StatisticLine = ({text, value}) => {
     if (text === "positive") {
-        return <p>{text} {value}%</p>
+        return <tr><td>{text} {value}%</td></tr>
     }
 
     return(
-        <p>{text} {value}</p>
+        <tr><td>{text} {value}</td></tr>
     )
 }
 export default StatisticLine;
